@@ -1,0 +1,17 @@
+{
+    "name": "aws-config-rule",
+    "description": "Custom Rule for AWS Config",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "aws-sdk": "2.211.*"
+    },
+    "devDependencies": {
+        "mocha": "5.0.0",
+        "unit.js": "2.0.0",
+        "aws-sdk-mock": "1.7.0"
+    },
+    "scripts": {
+        "test": "mocha --recursive tests"
+    }
+}
